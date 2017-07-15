@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow: scroll;
+  overflow-x: hidden;
+  position: relative;
+  height: 100%;
+  min-height: 100%;
+  background-color: #F2F2F2;
+}
+
+
+/* NAVIGATION */
+
+.navbar { 
+  border: 0;
+  background-color: transparent;
+}
+
+.navbar-nav li a {
+  font-family: 'Oswald';
+  font-weight: 400;
+  font-size: 20px;
+  color: #1A1A1B;
+}
+
+.navbar-nav li a:hover {
+  color: #fd7014;
+  background-color: transparent;
+}
+/* END NAVIGATION */
+
+
+/* REGISTRATION FORM */
+
+.registration-container {
+  position: absolute;
+  display: block;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 790px;
+  height: 500px;
+  background-color: #171b1d;
+  -webkit-box-shadow: 1px 9px 27px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 9px 27px -5px rgba(0,0,0,0.75);
+  box-shadow: 1px 9px 27px -5px rgba(0,0,0,0.75);
+  z-index: 5;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  
+    background: transparent;
+}
+
+.amis-logo {
+  position: fixed;
+  right: 3%;
+  bottom: 3%;
+  display: block;
+  max-width: 100%;
+}
+
+.regi-header {
+  font-family: 'Oswald';
+  color: #fd7014;
+  margin-top: 35px;
+}
+
+.regi-header h4 {
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-left: 18px;
+}
+
+.event-details {
+  margin-top: 50px;
+}
+
+hr {
+  width: 30px;
+  margin-left: 18px;
+}
+
+.event-details h2 {
+  color: rgba(255, 255, 255, 0.8);
+  margin-left: 18px;
+  font-family: 'Ostrich Sans';
+}
+
+
+

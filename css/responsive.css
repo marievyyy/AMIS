@@ -1,0 +1,628 @@
+/* MEDIA QUERIES*/
+
+@media only screen and (max-width: 320px) {
+
+  .navbar-nav li a {
+    font-size: 15px;
+    display: inline;
+    left: -1%;
+  }
+
+  .registration-container {
+    width: 96%;
+    height: 480px;
+    top: 52%;
+  }
+
+  .amis-logo {
+  max-height: 30px;
+  }
+
+  .regi-header h4 {
+    font-size: 15px;
+  }
+
+  .regi-header {
+    padding: 10px;
+    width: 96%;
+    left: 39.5%;
+    top: 15%;
+  }
+
+  .regi-header h4 {
+    font-size: 17px;
+  }
+
+  .category {
+    top: 19%;
+    max-width: 100%;
+  }
+
+  div.category nav ul li  {
+    padding: 5px 2.5px;
+    font-size: 10px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+
+  input.login.actionbutton {
+    margin-top: -14%;
+    margin-right: -5%;
+  }
+
+  input.personal.actionbutton {
+    margin-top: -15%;
+    margin-right: -5%;
+  }
+
+  input.educational.actionbutton {
+    margin-top: -15%;
+    margin-right: -5%;
+  }
+
+  input.affiliations.actionbutton {
+    margin-top: -15%;
+    margin-right: -5%;  
+  }
+
+  input.family.actionbutton {
+    margin-top: -12%;
+    margin-right: -5%;     
+  }
+
+  div#login-content {
+    margin-top: 16%;
+    max-width: 80%;
+  }
+
+  div#personal-content {
+    margin-top: 8.5%;
+    max-width: 80%;
+  }
+
+  div#educational-content {
+    margin-top: 15.5%;
+    max-width: 80%;
+  }
+
+  div#affiliations-content {
+    margin-top: 13.5%;
+    max-width: 80%;
+  }
+
+  div#family-content {
+    margin-top: 13.5%;
+    max-width: 80%;
+  }
+
+  div#family-content input.actionbutton {
+    top: 100%;
+    max-width: 100px;
+    max-height: 30px;
+    font-size: 10px;
+  }
+
+  .ui-input {
+    padding-top: 10px;
+  }
+
+  .ui-input input {
+    font-size: 11px;
+  }
+
+  .ui-input input + label {
+    font-size: 8px;
+  }
+
+  .gender .male {
+    left: -5%;
+  }
+
+  .gender .female {
+    left: -28%;
+  }
+
+  .gender ul li label {
+    font-size: 8.5px;
+    padding: 13px 10px 30px 0px;
+  }
+
+  .gender ul li .check {
+    left: 37%;
+    top: 50%;
+  }
+
+  select {
+    margin-top: 1%;
+    margin-top: -8%;
+  }
+
+  select option {
+    font-size: 10px;
+  }
+
+  #firstnameerror,
+  #middlenameerror,
+  #lastnameerror,
+  #studentnumbererror,
+  #studentnameerror,
+  #addresserror,
+  #emailaddresserror,
+  #contactnumbererror,
+  #passworderror,
+  #confirmpassworderror {
+    font-size: 9px;
+  }
+
+  #guilderror {
+    top: -5%;
+    left: 8%;
+    font-size: 9px;
+  }
+
+  .ui-input input {
+    font-size: 11px;
+  }
+
+  .ui-input input + label {
+    font-size: 9px;
+  }
+
+  .gender .male {
+    left: -7%;
+  }
+
+  .gender .female {
+    left: -35%;
+  }
+
+  .gender ul li {
+    margin-left: 10px;
+  }
+
+  .gender ul li label {
+    font-size: 10px;
+    padding: 12px 10px 30px 0px;
+  }
+
+  .gender ul li .check {
+    left: 10%;
+    top: 50%;
+  }
+
+
+}
+ 
+/* Smaller Phones */
+@media only screen and (min-width: 321px) and (max-width : 479px) {
+
+  .navbar-nav li a {
+    font-size: 15px;
+    display: inline;
+    left: -1%;
+  }
+
+  .registration-container {
+    width: 96%;
+    height: 480px;
+    top: 52%;
+  }
+
+  .amis-logo {
+  max-height: 30px;
+  }
+
+  .regi-header h4 {
+    font-size: 15px;
+  }
+
+  .regi-header {
+    padding: 10px;
+    width: 96%;
+    left: 39.5%;
+    top: 15%;
+  }
+
+  .regi-header h4 {
+    font-size: 17px;
+  }
+
+  .category {
+    top: 15%;
+    max-width: 100%;
+  }
+
+  div.category nav ul li  {
+    padding: 5px 2.5px;
+    font-size: 10px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+
+  div#login-content {
+    margin-top: 16%;
+    max-width: 80%;
+  }
+
+  div#personal-content {
+    margin-top: 8.5%;
+    max-width: 80%;
+  }
+
+  div#educational-content {
+    margin-top: 15.5%;
+    max-width: 80%;
+  }
+
+  div#affiliations-content {
+    margin-top: 13.5%;
+    max-width: 80%;
+  }
+
+  div#family-content {
+    margin-top: 13.5%;
+    max-width: 80%;
+  }
+
+  div#family-content input.actionbutton {
+    top: 100%;
+    max-width: 100px;
+    max-height: 30px;
+    font-size: 10px;
+  }
+
+  .ui-input {
+    padding-top: 10px;
+  }
+
+  .ui-input input {
+    font-size: 11px;
+  }
+
+  .ui-input input + label {
+    font-size: 8px;
+  }
+
+  .gender .male {
+    left: -5%;
+  }
+
+  .gender .female {
+    left: -28%;
+  }
+
+  .gender ul li label {
+    font-size: 8.5px;
+    padding: 13px 10px 30px 0px;
+  }
+
+  .gender ul li .check {
+    left: 37%;
+    top: 50%;
+  }
+
+  select {
+    margin-top: 1%;
+    margin-top: -8%;
+  }
+
+  select option {
+    font-size: 10px;
+  }
+
+  #firstnameerror,
+  #middlenameerror,
+  #lastnameerror,
+  #studentnumbererror,
+  #studentnameerror,
+  #addresserror,
+  #emailaddresserror,
+  #contactnumbererror,
+  #passworderror,
+  #confirmpassworderror {
+    font-size: 9px;
+  }
+
+  #guilderror {
+    top: -5%;
+    left: 8%;
+    font-size: 9px;
+  }
+
+  .ui-input input {
+    font-size: 11px;
+  }
+
+  .ui-input input + label {
+    font-size: 9px;
+  }
+
+  .gender .male {
+    left: -7%;
+  }
+
+  .gender .female {
+    left: -35%;
+  }
+
+  .gender ul li {
+    margin-left: 10px;
+  }
+
+  .gender ul li label {
+    font-size: 10px;
+    padding: 12px 10px 30px 0px;
+  }
+
+  .gender ul li .check {
+    left: 10%;
+    top: 50%;
+  }
+
+}
+
+/* Regular Phones */
+@media only screen and (min-width : 480px) and (max-width : 768px) {
+
+  .navbar-nav li a {
+    font-size: 15px;
+    display: inline;
+    left: -1%;
+  }
+
+  .registration-container {
+    width: 88%;
+    height: 490px;
+    top: 50%;
+  }
+
+  .amis-logo {
+  max-height: 30px;
+  }
+
+  .regi-header h4 {
+    font-size: 18px;
+  }
+
+  .regi-header {
+    padding: 12px;
+    width: 96%;
+    left: 39.5%;
+    top: 15%;
+  }
+
+  .category {
+    top: 15%;
+    max-width: 100%;
+  }
+
+  div.category nav ul li  {
+    padding: 7px 3px;
+    font-size: 10px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  div#login-content {
+    margin-top: 16%;
+    max-width: 80%;
+  }
+
+  div#personal-content {
+    margin-top: 8.5%;
+    max-width: 80%;
+  }
+
+  div#educational-content {
+    margin-top: 15.5%;
+    max-width: 80%;
+  }
+
+  div#affiliations-content {
+    margin-top: 13.5%;
+    max-width: 80%;
+  }
+
+  div#family-content {
+    margin-top: 13.5%;
+    max-width: 80%;
+  }
+
+  div#family-content input.actionbutton {
+    top: 100%;
+    max-width: 100px;
+    max-height: 30px;
+    font-size: 10px;
+  }
+
+  .ui-input {
+    padding-top: 5px;
+  }
+
+  .ui-input input {
+    font-size: 12px;
+  }
+
+  .ui-input input + label {
+    font-size: 10px;
+  }
+
+  .gender .male {
+    left: -5%;
+  }
+
+  .gender .female {
+    left: -25%;
+  }
+
+  .gender ul li {
+    margin-left: 10px;
+  }
+
+  .gender ul li label {
+    font-size: 10px;
+    padding: 12px 10px 30px 0px;
+  }
+
+  .gender ul li .check {
+    left: 11%;
+    top: 50%;
+  }
+
+  select {
+    margin-top: -6%;
+  }
+
+  select option {
+    font-size: 11px;
+  }
+
+  #firstnameerror,
+  #middlenameerror,
+  #lastnameerror,
+  #studentnumbererror,
+  #studentnameerror,
+  #addresserror,
+  #emailaddresserror,
+  #contactnumbererror,
+  #passworderror,
+  #confirmpassworderror {
+    font-size: 9px;
+    top: -15%;
+  }
+
+  #guilderror {
+    top: -5%;
+    left: 8%;
+    font-size: 9px;
+  }
+
+  .progress-button {
+    top: 80%;
+  }
+
+}
+
+ /* Tablet */
+@media only screen and (min-width : 769px) and (max-width : 1200px) {
+  
+  .navbar-nav li a {
+    font-size: 16px;
+  }
+
+  .registration-container {
+    width: 65%;
+    height: 85%;
+    top: 50%;
+  }
+
+  .amis-logo {
+  max-height: 40px;
+  }
+
+  .regi-header h4 {
+    font-size: 20px;
+  }
+
+  .regi-header {
+    padding: 12px;
+    width: 96%;
+    left: 39.5%;
+    top: 15%;
+  }
+
+  .category {
+    top: 17%;
+    max-width: 100%;
+  }
+
+  div.category nav ul li  {
+    padding: 14px 15px;
+    font-size: 10px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  div#login-content {
+    margin-top: 11%;
+    max-width: 80%;
+  }
+
+  div#personal-content {
+    margin-top: 8.5%;
+    max-width: 80%;
+  }
+
+  div#educational-content {
+    margin-top: 15.5%;
+    max-width: 80%;
+  }
+
+  div#affiliations-content {
+    margin-top: 12%;
+    max-width: 80%;
+  }
+
+  div#family-content {
+    margin-top: 9%;
+    max-width: 80%;
+  }
+
+  div#family-content input.actionbutton {
+    top: 100%;
+    max-width: 100px;
+    max-height: 30px;
+    font-size: 10px;
+  }
+
+  .ui-input {
+    padding-top: 5px;
+  }
+
+  .ui-input input {
+    font-size: 12px;
+  }
+
+  .ui-input input + label {
+    font-size: 10px;
+  }
+
+  .gender .male {
+    left: 2%;
+  }
+
+  .gender .female {
+    left: -20%;
+  }
+
+  .gender ul li {
+    margin-left: 10px;
+  }
+
+  .gender ul li label {
+    font-size: 10px;
+    padding: 12px 10px 30px 0px;
+  }
+
+  .gender ul li .check {
+    left: 11%;
+    top: 50%;
+  }
+  
+  select {
+    margin-top: -6%;
+  }
+
+  select option {
+    font-size: 12px;
+  }
+
+}

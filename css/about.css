@@ -1,0 +1,245 @@
+
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+@import 'https://fonts.googleapis.com/css?family=Archivo+Narrow';
+@import url(http://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,200,700);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+  height: 100%;
+  outline: 0;
+  font-weight: 400;
+  color: #384452;
+  /*overflow-x: hidden;*/
+}
+
+h1 {
+  color: black;
+}
+
+.about-us {
+  background-color: #e1e1e1; 
+  height: 100%;
+}
+
+.abt-bg-image {
+  background: url("../img/banner-05.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
+.abt-bg-image h1 {
+  font-family: 'Open Sans';
+  font-size: 7em;
+  color: #fff;
+  padding-top: 21%;
+  letter-spacing: 5px;
+}
+
+.abt-bg-image h3 {
+  font-size: 30px;
+  font-family: 'Open Sans';
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+
+.team-details {
+  margin-top: 30px;
+  padding: 0 50px;
+}
+
+.about-info {
+  margin-top: 140px;
+  padding: 0 60px;
+}
+
+p.story-title {
+  font-family: 'Yanone Kaffeesatz';
+  letter-spacing: 2px;
+  color: #252525;
+  font-size: 45px;
+  padding-top: 50px;
+  line-height: 60px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.story-desc{
+  font-size: 15px;
+  color: #252525;
+  line-height: 30px;
+  margin-top: 28px;
+  text-align: center;
+}
+
+hr.star-dark {
+  margin: 40px auto 30px;
+  padding: 0;
+  max-width: 312px;
+  border: 0;
+  border-top: solid 5px;
+  text-align: center;
+  color: #7f7f7f;
+}
+
+.about-image {
+  background-image: url(../img/1.jpg);
+  background-size: cover;
+  height: 100%;
+}
+
+.team-title {
+  font-family: "Oswald";
+  letter-spacing: 2px;
+  color: #000;
+  font-weight: 800;
+  font-size: 70px;
+  padding-top: 50px;
+  line-height: 80px;
+  vertical-align: top;
+}
+
+
+.amis-name {
+  font-family: "Oswald";
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+  padding-top: 10px;
+  line-height: 40px;
+}
+
+.team-title-orange {
+  color: #f64e0c;
+  font-size: 40px;
+  /*padding-top: 20px;*/
+}
+
+.images {
+  padding: 0 50px;
+}
+
+.officer img {
+  width: 270px;
+  height: 270px;
+}
+
+.item {
+  overflow: hidden;
+  padding: 0;
+  border: 1px solid white;
+
+}
+
+.item img {
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  transition-delay: all 0.5s;
+  opacity: 0.8;
+  /*transform: translateY(-9%);*/
+
+}
+
+.item:hover img {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+
+.access-officer {
+  margin-top: 20px;
+  font-family: "Open sans", sans-serif;
+  font-size: 15px;
+  color: #282323;
+  text-align: center;
+  line-height: 30px;
+}
+
+.officer-position {
+  line-height:14px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #f17241;
+  letter-spacing: 1px;
+  font-family: "Oswald";
+}
+
+.officer-position:hover {
+  color: #313c45;
+  transition: all 0.5s;
+  transition-delay: all 0.5s;
+}
+
+.officer-name {
+  line-height: 15px;
+  font-size: 12px;
+  font-weight: 400;
+  font-style:  italic;
+  color: #6c6562;
+}
+
+.officer-caption {
+  padding-top: 20px;
+
+}
+
+.advisers {
+  margin-bottom: 40px;
+}
+
+.advisers-title {
+  padding: 0 50px;
+}
+
+.location-container {
+  background: url("../img/about-a.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 50%;
+  padding-top: 30px;
+  /*vertical-align: middle;*/
+
+}
+
+.contact-call {
+  font-family: "Oswald";
+  font-style: 55px;
+  color: #F9FCFD;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+  margin-top: 120px;
+  /*vertical-align: middle;*/
+}
+
+.accomplishment {
+  padding: 30px;
+}
+
+
+.accomplishment a {
+  color: #fd7014;
+}
+
+.accomplishment a:hover {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.66);
+}

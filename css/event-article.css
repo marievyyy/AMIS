@@ -1,0 +1,228 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+@import 'https://fonts.googleapis.com/css?family=Archivo+Narrow';
+@import url(http://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,200,700);
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.article-header {
+  height: 180px;
+  background-color: #f2f2f2;
+}
+
+
+.article-main {
+  padding-top: 20px;
+  background-color: #f2f2f2;
+}
+
+#article-header {
+  color: #fff;
+  background-color: rgba(0,0,0,0.8);
+  position: relative;
+  margin: 20px 0 50px 0;
+  padding: 0 30px;
+  height: 110px;
+}
+
+.divider .article-title {
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(255,255,255,0.4);
+}
+
+.article-title {
+  position: relative;
+  padding: 24px 0;
+}
+
+.article-title h1 {
+  color: #fff;
+  margin: 0;
+}
+
+.divider .article-title:after {
+  background-color: #FFF;
+}
+
+.divider .article-title:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 30px;
+  height: 3px;
+  line-height: 0;
+}
+
+#article-header:after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  margin-left: -5px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid rgba(0,0,0,0.8);
+}
+
+/*------------------------- Event Content */
+#events-content {
+  background-color: #f2f2f2;
+}
+
+.event-page .group-title {
+  color: #FFF;
+  background-color: #fd7014;
+}
+
+.event-page .group-title {
+  margin: 20px 0 40px 0;
+  padding: 10px 30px;
+  font-size: 1em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.c-content-box.m-no-padding {
+  padding: 0;
+}
+
+.c-content-box {
+  background-color: #fff;
+  -moz-box-shadow: 1px 1px 0 rgba(0,0,0,0.05);
+  -webkit-box-shadow: 1px 1px 0 rgba(0,0,0,0.05);
+  box-shadow: 1px 1px 0 rgba(0,0,0,0.05);
+}
+.c-content-box {
+  margin-bottom: 24px;
+  line-height: 1.4em;
+  overflow: hidden;
+}
+
+.event-page .event-image {
+  text-align: center;
+}
+
+.event-page .event-image a {
+  color: #FF7C38 !important;
+  font-size: 20px;
+}
+
+.event-image a, 
+.event-image a:hover,
+.event-image a:focus,
+.event-image a:active {
+  color: #fd7014;
+  text-decoration: none;
+  outline: none;
+}
+
+.event-image img {
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  max-width: 100%;
+}
+
+.event-image img:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+} 
+
+.event-page .event-core {
+  padding: 15px 30px 1px 30px;
+  color: #333;
+  text-align: center;
+}
+
+.event-page .event-info {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 12px;
+  margin-bottom: 24px;
+  padding-top: 4px;
+  font-size: 0.875em;
+  font-family: 'Yanone Kaffeesatz';
+  border-bottom: 1px solid #bdbdbd;
+}
+
+.event-page .event-info>li {
+  display: inline-block;
+  position: relative;
+  margin: 8px 20px 0 0;
+  padding-left: 25px;
+}
+
+.event-page .event-info>li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2em;
+  font-family: 'Yanone Kaffeesatz';
+}
+
+.glyphicon-calendar:before {
+  content: "\e109";
+  margin: 2px 10px;
+  color: #fd7014;
+}
+
+.glyphicon-time:before {
+  content: "\e023";
+  margin: 2px 10px;
+  color: #fd7014;
+}
+
+.glyphicon-map-marker:before {
+  content: "\e062";
+  margin: 2px 10px;
+  color: #fd7014;
+}
+
+.glyphicon-paperclip:before {
+  content: "\e142";
+  margin: 2px 10px;
+  color: #fd7014;
+}
+
+.glyphicon-phone:before {
+  content: "\e145";
+  margin: 2px 10px;
+  color: #fd7014;
+}
+
+.glyphicon-pencil:before {
+  content: "\270f";
+  margin: 2px 10px;
+  color: #fd7014;
+}
+
+.glyphicon-eye-open:before {
+  margin: 2px 10px;
+  color: #fd7014;
+}
+
+
+.event-page .event-details {
+    color: #404040;
+    padding: 5px 50px 30px 50px;
+}
+
+.event-page .event-details p {
+    margin-bottom: 15px;
+}
