@@ -1,6 +1,6 @@
 # AMIS
 This is an information system -  AMIS (ACCESS Member Information System)
-Link : ![Link](http://amis.likesyou.org)
+http://amis.likesyou.org/
 
 Front End Developer / Designer
 
