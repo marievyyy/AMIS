@@ -1,7 +1,7 @@
 # AMIS
-This is an information system -  AMIS (ACCESS Member Information System)
+This is an information system -  AMIS (ACCESS Member Information System) view here [AMIS](http://amis.likesyou.org/)
 
-Front End Developer / Designer
+Role: Main Front End Developer / Designer - Client Side
 
 ***
 ![1](https://user-images.githubusercontent.com/25134135/28241194-6f3d5746-69c2-11e7-9d3e-a8ccb475b9c4.png)
